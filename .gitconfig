@@ -1,0 +1,10 @@
+[gui]
+	recentrepo = C:/Users/dveee/hs
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = lapamprr
+	email = dveee7878@gmail.com
